@@ -4,7 +4,7 @@ import requests
 
 # --- 1. FastAPI Endpoint URL ---
 # Replace with the actual URL of your running FastAPI server
-API_ENDPOINT = "http://127.0.0.1:8000/predict"
+API_ENDPOINT = "https://premium-predictor-zwiw.onrender.com//predict"
 
 # --- 2. Streamlit UI Components ---
 st.set_page_config(page_title="Insurance Premium Predictor", layout="centered")
