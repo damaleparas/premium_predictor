@@ -10,7 +10,7 @@ app = FastAPI()
 # human redable    
 @app.get("/")
 def home():
-    return {"message":"Insurence premium prediction api for prediction runt the streamlit file in gitub on local pc using [streamlit run frontend.py] . the endpoint are '/predict'" }
+    return {"message":"Insurence premium prediction api. for prediction runt the streamlit file in gitub on local pc using [streamlit run frontend.py] OR go to the '/docs' endpoint . the endpoint are '/predict'" }
 # machine redable (like kubernet)
 @app.get("/health")
 def health_check():
